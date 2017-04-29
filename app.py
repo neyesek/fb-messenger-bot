@@ -20,7 +20,7 @@ def verify():
     return "Hello Mustafa Kamasak", 200
 
 
-@app.route('/', methods=['POST'])
+@app.route('/webhook', methods=['POST'])
 def webhook():
 
     # endpoint for processing incoming messaging events
